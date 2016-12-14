@@ -1,0 +1,127 @@
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+a:link {
+    text-decoration: none;
+}
+        
+a:visited {
+    text-decoration: none;
+}
+
+header {
+    background-image: url(FinalPics/red%20background.jpg);
+    background-size: 100% 100%;
+    color:red;
+}
+
+
+nav {
+    background: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 7px;
+    padding-left: 5px;
+    border-right: solid 1px black;
+}
+
+li a.home:link {
+    color: #cc0606;
+    border-bottom: solid 3px #cc0606;
+}li a.home:visited {
+    color: #cc0606;
+    border-bottom: solid 3px #cc0606;
+}li a.home:hover {
+    color: #f29704;
+}li a:link:not(.home) {
+    color: #cc0606;
+}li a:visited:not(.home) {
+    color: #cc0606;
+}li a:hover:not(.home) {
+    color: #f29704;
+    border-bottom: solid 3px #a5a5a5;
+}
+article {margin-top: 0px;padding-top: 0px;height: auto;
+}
+
+#back {background-image: url(FinalPics/background.jpg);background-size:100% 100%;}
+
+#content {
+    display: inline-block;
+    width: 60%;
+    margin-right: 20px;
+    vertical-align: top;
+    
+}#aside {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    border-left: solid 5px #cc0606;
+    padding-left: 10px;
+}
+.accordianContent {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+.img {
+    float: left;
+    width: 20%;
+    height: 20%;
+    margin-right: 8px;
+}
+.imgC {
+    float: center;
+    width: 50%;
+    height: 50%;
+}
+
+.heading {
+    color: red;
+    text-decoration: underline;
+}
+#cool {width:10em; height:10em;}
+.show {
+    color: white;
+    font-size: 24px;
+}
+
+.asideContent {
+    border-bottom: solid 2px #cc0606;
+}
+
+.ui-progressbar-value {height: 30px;}
+
+
+footer{
+    color: white;
+    padding-top: 8%;
+    padding-bottom: 2%;
+}
+
+.ui-tooltip {
+    width: 15%;
+  }

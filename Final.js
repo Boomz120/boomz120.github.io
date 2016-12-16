@@ -52,7 +52,7 @@ function fairy() {
 
 $( function() {
     $( "#progressbar1" ).progressbar({
-      value: 5
+      value: 20
     });
     $( "#progressbar2" ).progressbar({
       value: 5
@@ -61,7 +61,7 @@ $( function() {
 
 
 
-$("#progressbar1").html("5% Done");
+$("#progressbar1").html("20% Done");
 $("#progressbar2").html("5% Through Campaign");
 
 var sh = document.getElementsByClassName("show");

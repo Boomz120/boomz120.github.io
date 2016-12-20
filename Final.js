@@ -71,9 +71,7 @@ sh[2].innerHTML = "Far Cry Primal";
 document.getElementById("show1").src = "FinalPics/castle.jpg";
 document.getElementById("game").src = "FinalPics/farcry.jpg";
 
-$( function() {
-    $( document ).tooltip();
-  } );
+
 $("#potatoImg").attr('title', 'OMG WHAT A FABULOUS POTATO');
 $("#sax").attr('title', 'Sax > Trumpet');
 $("#coral").attr('title', 'COOOORALLLLL');
